@@ -1,16 +1,16 @@
-# loblaw-digital
+# image-distance
 
 ## Instructions
 
 The project is built to be cross-platform application with frontend and backend written in React and python respectively. The frontend and backend needs to be run separately. 
 
-checkout the project from github: `git clone https://github.com/stamzid/loblaw-digital.git`
+checkout the project from github: `git clone https://github.com/stamzid/image-distance.git`
 
 ### Backend
 
 Backend is written in Python and takes advantage of python virtual environment setup. For this project `pipenv` environment has been used. Please refer to relevant instructions for operating system specific installation of `python 3.7` and `pipenv` environment.
 
-Once installation complate, `cd` to `loblaw-digital/backend` folder and run the following chronologically:
+Once installation complate, `cd` to `image-distance/backend` folder and run the following chronologically:
 
 - `pipenv shell`
 
