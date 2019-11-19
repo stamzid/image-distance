@@ -42,8 +42,8 @@ async def process_file(request: Request):
             write_row = {
                 "image1": image1,
                 "image2": image2,
-                "similar": score,
-                "elapsed": elapsed_time
+                "similar": round(score, 4),
+                "elapsed": round(elapsed_time, 4)
             }
 
             dict_rows.append(write_row)
