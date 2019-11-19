@@ -10,13 +10,13 @@ checkout the project from github: `git clone https://github.com/stamzid/image-di
 
 Backend is written in Python and takes advantage of python virtual environment setup. For this project `pipenv` environment has been used. Please refer to relevant instructions for operating system specific installation of `python 3.7` and `pipenv` environment.
 
-Once installation complate, `cd` to `image-distance/backend` folder and run the following chronologically:
+Once installation complate, `cd` to `backend` folder in the repo and run the following chronologically:
 
 - `pipenv shell`
 
 - `pipenv install`
 
-Once the python dependencies are installed change directory to root of this repo (loblaw-digital) and run the following command:
+Once the python dependencies are installed change directory to root of this repo (image-distance) and run the following command:
 
 `uvicorn backend.app.main:app --host 0.0.0.0 --port 8000`
 
