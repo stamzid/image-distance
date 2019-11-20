@@ -10,7 +10,7 @@ checkout the project from github: `git clone https://github.com/stamzid/image-di
 
 Backend is written in Python and takes advantage of python virtual environment setup. For this project `pipenv` environment has been used. Please refer to relevant instructions for operating system specific installation of `python 3.7` and `pipenv` environment.
 
-Once installation complate, `cd` to `backend` folder in the repo and run the following chronologically:
+Once installation complate, open a terminal and `cd` to `backend` folder in the repo and run the following chronologically:
 
 - `pipenv shell`
 
@@ -23,6 +23,8 @@ Once the python dependencies are installed change directory to root of this repo
 This will load the backend server.
 
 ### Frontend
+
+For this part, if backend is not running in the background, open another terminal window.
 
 Frontend is written in React.js and takes advantage of node package manager for maintaining and installing all necessary libraries. Please refer to the relevant official instructions for os specific installation of `node`, `npm` and `serve`.
 
